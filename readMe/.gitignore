@@ -1,0 +1,12 @@
+# OS / editor
+.DS_Store
+*.log
+.vscode/
+
+# Python / build
+__pycache__/
+dist/
+build/
+
+# Images you might export repeatedly
+docs/*.bak

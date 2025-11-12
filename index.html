@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>かんたん手話辞典（検索＋候補表示）</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🔍 かんたん手話辞典</h1>
+
+  <input type="text" id="searchInput" placeholder="単語を入力（例：こんにちは）" oninput="showSuggestions()">
+  <div id="suggestions"></div>
+
+  <div class="button-group">
+    <button class="search-button" onclick="searchWord()">検索</button><br>
+    <button onclick="bookmarkWord()">⭐ ブックマーク</button>
+    <button onclick="showBookmarks()">📚 ブックマーク一覧</button>
+  </div>
+
+  <p id="result">選択された単語：なし</p>
+  <img id="signImage" alt="手話画像" style="display:none;">
+
+  <ul id="bookmarkList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
