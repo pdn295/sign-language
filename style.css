@@ -23,7 +23,7 @@ h1 {
 input[type="text"] {
   width: 100%;
   max-width: 400px;
-  padding: 12px;
+  padding: 10px;
   font-size: 1rem;
   border: 2px solid #90e0ef;
   border-radius: 8px;
