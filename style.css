@@ -1,0 +1,131 @@
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to right, #f0f4ff, #e0f7fa);
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  animation: fadeIn 1s ease-out;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #0077b6;
+  margin-bottom: 30px;
+  animation: fadeIn 1s ease-out;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #90e0ef;
+  border-radius: 8px;
+  margin: 0 auto 10px;
+  display: block;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  animation: fadeIn 1s ease-out;
+}
+
+#suggestions {
+  max-width: 400px;
+  margin: 0 auto 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  animation: fadeIn 0.8s ease-out;
+}
+
+#suggestions div {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#suggestions div:hover {
+  background-color: #e0f7fa;
+}
+
+.button-group {
+  text-align: center;
+  margin-top: 10px;
+  animation: fadeIn 1s ease-out;
+}
+
+.button-group button {
+  background-color: #00b4d8;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-group button:hover {
+  background-color: #0077b6;
+  transform: scale(1.05);
+}
+
+.search-button {
+  font-size: 1.3rem;
+  padding: 16px 28px;
+  background-color: #0096c7;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#result {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  text-align: center;
+  animation: fadeIn 1s ease-out;
+}
+
+#signImage {
+  display: block;
+  margin: 24px auto;
+  width: 800px;
+  height: 600px;
+  object-fit: contain;
+  background-color: #fff;
+  border: 2px solid #90e0ef;
+  border-radius: 12px;
+  padding: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 1s ease-out;
+}
+
+#bookmarkList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  animation: fadeIn 1s ease-out;
+}
+
+#bookmarkList li {
+  background-color: #caf0f8;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+#bookmarkList li:hover {
+  transform: scale(1.03);
+}

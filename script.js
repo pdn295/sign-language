@@ -2,7 +2,10 @@ const wordData = {
   "ありがとう": "arigatou.jpg",
   "こんにちは": "knnnitiha.jpg",
   "さようなら": "syounara.jpg",
-  // もっと増やす予定 一旦画像だが動画に変更する 似た単語で他の候補も見れるようにする
+  // もっとwordDateを増やす予定
+  // 今は一旦画像だが動画に変更する
+  // 似た単語で他の候補も見れるようにする
+  // 挨拶、天気、数字などでのカテゴリも用意する
 };
 
 function showSuggestions() {
