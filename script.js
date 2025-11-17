@@ -1,7 +1,16 @@
 const wordData = {
-  "ありがとう": "arigatou.jpg",
-  "こんにちは": "knnnitiha.jpg",
-  "さようなら": "syounara.jpg",
+  "ありがとう": "thanks.jpg",
+  "おはよう":"goodMorning.jpg",
+  "こんにちは": "hello.jpg",
+  "こんばんは":"goodEvening.jpg",
+  "さようなら": "goodby.jpg",
+  "昨日":"yesterday.jpg",
+  "明日":"tomorrow.jpg",
+  "名前":"name.jpg",
+  "一緒":"together.jpg",
+  "帰る":"return.jpg",
+  "行こう":"go.jpg",
+  "休憩":"relax.jpg"
   // もっとwordDateを増やす予定
   // 今は一旦画像だが動画に変更する
   // 似た単語で他の候補も見れるようにする
